@@ -12,6 +12,8 @@
 #### Server
 - jako server mužete využít:  vlastní server, Rasberry Pi, VPS (cloudové řešení)
 
+## Software
+
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
 Martin Urban, Jakub Strakoš
