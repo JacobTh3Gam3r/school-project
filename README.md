@@ -7,6 +7,7 @@
 
 #### TP4056
 - nabíjení Li-Ion článku
+- https://www.hadex.cz/m401e-nabijecka-li-ion-clanku-1a-s-ochranou-modul-s-io-tp4056-usb-c/ nebo https://www.hadex.cz/m401a-nabijecka-li-ion-clanku-1a-s-ochranou-modul-s-io-tp4056-micro-usb/
 
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
