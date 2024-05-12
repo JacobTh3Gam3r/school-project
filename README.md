@@ -25,15 +25,18 @@
 #### Eclipse Mosquitto
 - MQTT broker
 - zběr dat z nabíjecí stanice
+- https://mosquitto.org/
 
 #### Telegraf
 - serverový agent
 - přenos dat z MQTT brokeru do InfluxDB
 - krátkodobé uchování dat
+- https://github.com/influxdata/telegraf
 
 #### InfluxDB
 - databáze
 - dlouhodobé uchování dat
+- https://github.com/influxdata/influxdb
 
 #### Grafana
 - dashboard
