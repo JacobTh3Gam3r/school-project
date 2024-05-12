@@ -7,7 +7,7 @@
 	<a alt="Forks">
         <img src="https://img.shields.io/github/forks/JacobTh3Gam3r/school-project" /></a>
 	<a alt="Issues">
-        <img src="https://img.shields.io/github/Issues/JacobTh3Gam3r/school-project" /></a>
+        <img src="https://img.shields.io/github/issues/JacobTh3Gam3r/school-project" /></a>
 	<a alt="License">
         <img src="https://img.shields.io/github/license/JacobTh3Gam3r/school-project" /></a>
 	<a alt="Release">
