@@ -55,7 +55,7 @@
 ##### Portainer
 - naintalování Portaineru
 - použíjte doker compose:
-  `version: '3'
+  ```version: '3'
 
 services:
   mosquitto:
@@ -111,7 +111,7 @@ volumes:
   mosquitto_log:
   influxdb_data:
   grafana_data:
-`
+```
 
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
