@@ -1,9 +1,5 @@
 # Jednočlánková nabíjecí stanice s vizualizací dat v Grafaně
 
-!License
-!Version
-!Issues
-
 ## Hardware
 #### ESP32
 - měření stavu Li-Ion článku (vhodné pouze pro články s maxinálním napětí 3,3 V)
