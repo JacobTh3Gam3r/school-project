@@ -2,7 +2,7 @@
 
 ## Hardware
 #### ESP32
-- měření stavu Li-Ion článku
+- měření stavu Li-Ion článku (vhodné pouze pro články s maxinálním napětí 3,3 V)
 - MQTT client odesílající informace o stavu nabíjeného článku
 
 #### TP4056
