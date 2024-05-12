@@ -10,7 +10,7 @@
 - https://www.hadex.cz/m401e-nabijecka-li-ion-clanku-1a-s-ochranou-modul-s-io-tp4056-usb-c/ nebo https://www.hadex.cz/m401a-nabijecka-li-ion-clanku-1a-s-ochranou-modul-s-io-tp4056-micro-usb/
 
 #### INO3221
-- měření napětí baterie (poř. proudu)
+- měření napětí baterie (popř. proudu)
 - komunikace s ESP32 přes I2C
 
 #### Držák článku 18650 s vývody
