@@ -138,9 +138,7 @@ volumes:
 - nahrat soubor s hesly viz Mosquitto/password.txt
 
 
-<p style="font-size: 6px;">
-Školní projekt
+<p><sub><sup>Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
-Martin Urban, Jakub Strakoš
-</p>
+Martin Urban, Jakub Strakoš</sup></sub></p>
 
