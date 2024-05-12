@@ -22,6 +22,23 @@
 
 ## Software
 
+#### Eclipse Mosquitto
+- MQTT broker
+- zběr dat z nabíjecí stanice
+
+#### Telegraf
+- serverový agent
+- přenos dat z MQTT brokeru do InfluxDB
+- krátkodobé uchování dat
+
+#### InfluxDB
+- databáze
+- dlouhodobé uchování dat
+
+#### Grafana
+- dashboard
+- vizualizace dat uložených v databázi
+
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
 Martin Urban, Jakub Strakoš
