@@ -47,10 +47,71 @@
 
 #### Docker
 - nutno naintalovat Docker + Docker Compose, popř. použít Portainer
-##### Docker + Docker Compose
+##### Docker + Docker Compose (nutnost zanlosti dockeru)
 - nainstalování Docker + Docker compose
 - poté pužíjte docker-compose.sh v powershellu
-- 
+- vice info viz. https://docs.docker.com/
+
+##### Portainer
+- naintalování Portaineru
+- použíjte doker compose:
+  `version: '3'
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+
+  influxdb:
+    image: influxdb:latest
+    container_name: influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - ./influxdb/data:/var/lib/influxdb
+    environment:
+      - INFLUXDB_DB=telegraf
+      - INFLUXDB_USER=admin
+      - INFLUXDB_ADMIN_ENABLED=true
+      - INFLUXDB_ADMIN_USER=admin
+      - INFLUXDB_ADMIN_PASSWORD=adminpassword
+      - INFLUXDB_USER_PASSWORD=userpassword
+      - INFLUXDB_HTTP_AUTH_ENABLED=true
+
+  telegraf:
+    image: telegraf:latest
+    container_name: telegraf
+    links:
+      - influxdb
+    volumes:
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana/data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=adminpassword
+    depends_on:
+      - influxdb
+
+volumes:
+  mosquitto_data:
+  mosquitto_log:
+  influxdb_data:
+  grafana_data:
+`
 
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
