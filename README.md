@@ -43,6 +43,8 @@
 - vizualizace dat uložených v databázi
 - https://github.com/grafana/grafana
 
+## Instalace
+
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
 Martin Urban, Jakub Strakoš
