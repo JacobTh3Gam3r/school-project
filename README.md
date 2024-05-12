@@ -14,8 +14,6 @@
         <img src="https://img.shields.io/github/release/JacobTh3Gam3r/school-project" /></a>
 	<a alt="Code_coverage>
         <img src="https://img.shields.io/codecov/c/github/JacobTh3Gam3r/school-project" /></a>
-	<a alt="Build">
-        <img src="https://img.shields.io/travis/JacobTh3Gam3r/master" /></a>
 </p>
 
 ## Hardware
