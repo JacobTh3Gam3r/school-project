@@ -41,6 +41,7 @@
 #### Grafana
 - dashboard
 - vizualizace dat uložených v databázi
+- https://github.com/grafana/grafana
 
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
