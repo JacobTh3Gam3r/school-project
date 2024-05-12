@@ -8,8 +8,7 @@
         <img src="https://img.shields.io/github/forks/JacobTh3Gam3r/school-project" /></a>
 	<a alt="Issues">
         <img src="https://img.shields.io/github/issues/JacobTh3Gam3r/school-project" /></a>
-	<a alt="License">
-        <img src="https://img.shields.io/github/license/JacobTh3Gam3r/school-project" /></a>
+	<img alt="GitHub License" src="https://img.shields.io/github/license/JacobTh3Gam3r/school-project">
 	<a alt="Release">
         <img src="https://img.shields.io/github/release/JacobTh3Gam3r/school-project" /></a>
 	<a alt="Code_coverage>
