@@ -13,6 +13,10 @@
 - měření napětí baterie (poř. proudu)
 - komunikace s ESP32 přes I2C
 
+#### Držák článku 18650 s vývody
+- pro jednoduché zapojení článku do obvodu
+- https://www.hadex.cz/l038b-drzak-clanku-18650-s-vyvody/
+
 #### Server
 - jako server mužete využít:  vlastní server, Rasberry Pi, VPS (cloudové řešení)
 
