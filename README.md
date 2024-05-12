@@ -45,6 +45,13 @@
 
 ## Instalace
 
+#### Docker
+- nutno naintalovat Docker + Docker Compose, popř. použít Portainer
+##### Docker + Docker Compose
+- nainstalování Docker + Docker compose
+- poté pužíjte docker-compose.sh v powershellu
+- 
+
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
 Martin Urban, Jakub Strakoš
