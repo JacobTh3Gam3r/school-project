@@ -55,7 +55,8 @@
 ##### Portainer
 - naintalování Portaineru
 - použíjte doker compose:
-  ```version: '3'
+```
+  version: '3'
 
 services:
   mosquitto:
