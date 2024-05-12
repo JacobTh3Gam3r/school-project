@@ -116,6 +116,10 @@ volumes:
   influxdb_data:
   grafana_data:
 ```
+#### Mosquitto
+- nainstalovaní mosquitto brokeru
+- úprava config filu
+- nahrat soubor s hesly viz Mosquitto/password.txt
 
 Školní projekt
 Nabíjecí  stanice pomocí ESP32 s posíláním dat do grafany.
