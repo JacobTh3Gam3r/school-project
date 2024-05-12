@@ -2,6 +2,20 @@
 <p align="center">
     <a alt="Contributors">
         <img src="https://img.shields.io/github/contributors/JacobTh3Gam3r/school-project" /></a>
+	<a alt="Stars">
+        <img src="https://img.shields.io/github/stars/JacobTh3Gam3r/school-project" /></a>
+	<a alt="Forks">
+        <img src="https://img.shields.io/github/forks/JacobTh3Gam3r/school-project" /></a>
+	<a alt="Issues">
+        <img src="https://img.shields.io/github/Issues/JacobTh3Gam3r/school-project" /></a>
+	<a alt="License">
+        <img src="https://img.shields.io/github/license/JacobTh3Gam3r/school-project" /></a>
+	<a alt="Release">
+        <img src="https://img.shields.io/github/release/JacobTh3Gam3r/school-project" /></a>
+	<a alt="Code_coverage>
+        <img src="https://img.shields.io/codecov/c/github/JacobTh3Gam3r/school-project" /></a>
+	<a alt="Build">
+        <img src="https://img.shields.io/travis/JacobTh3Gam3r/master" /></a>
 </p>
 
 ## Hardware
