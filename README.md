@@ -42,7 +42,7 @@
 - dashboard
 - vizualizace dat uložených v databázi
 - https://github.com/grafana/grafana
-- Příklad Konfigurace viz grafana_example.json
+- příklad konfigurace viz grafana_example.json
  ![image](https://github.com/JacobTh3Gam3r/school-project/assets/163784417/6860c032-a69f-4e4a-9a6c-5958000f85e2)
 
 
