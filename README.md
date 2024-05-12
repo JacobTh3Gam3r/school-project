@@ -57,7 +57,7 @@
 
 ##### Portainer
 - naintalování Portaineru
-- použíjte doker compose:
+- použíjte docker compose:
 ```
   version: '3'
 
